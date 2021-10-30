@@ -10,7 +10,7 @@ ASP .Net Core Web application, to fetch Json data from "https://swapi.dev/" API 
 - First put a breakpoint at line "people = JsonSerializer.Deserialize<PeopleModel>(responseText);" which is in "Index.cshtml.cs" file, And run IIS Express.
   - You will see the responseText as the Json was fetched from the API, stepover and see people variable.
   
-### Sample:
+### Sample Response Text:
 > {
 	"name": "Luke Skywalker",
 	"height": "172",
